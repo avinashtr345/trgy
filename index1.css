@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .login-container {
+    background-color: white;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 380px;
+    text-align: center;
+  }
+  
+  .login-header h1 {
+    color: #5c6bc0;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .brand {
+    font-weight: bold;
+  }
+  
+  .social-login button {
+    margin: 10px 5px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  
+  .google-login {
+    background-color: #4285f4;
+    color: white;
+  }
+  
+  .facebook-login {
+    background-color: #3b5998;
+    color: white;
+  }
+  
+  .or-text {
+    margin: 20px 0;
+    color: #888;
+  }
+  
+  .form-group {
+    margin: 20px 0;
+    text-align: left;
+  }
+  
+  label {
+    display: block;
+    font-size: 0.9rem;
+    color: #333;
+  }
+  
+  input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .form-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .forgot-password {
+    color: #5c6bc0;
+    font-size: 0.9rem;
+    text-decoration: none;
+  }
+  
+  .login-button {
+    background-color: #5c6bc0;
+    color: white;
+    padding: 12px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+  }
+  
+  .error-message {
+    color: red;
+    margin: 10px 0;
+    font-size: 0.9rem;
+  }
+  
+  .register-link {
+    margin-top: 20px;
+  }
+  
+  .register-link a {
+    color: #5c6bc0;
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+  
+  /* Responsiveness */
+  @media (max-width: 768px) {
+    .login-container {
+      width: 90%;
+      padding: 20px;
+    }
+  }
+  
+  /* Main page styles */
+  .main-container {
+    background-color: white;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 380px;
+    text-align: center;
+  }
+  
+  .logout-button {
+    background-color: #d9534f;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+  }
+  
+  .logout-button:hover {
+    background-color: #c9302c;
+  }
+  
