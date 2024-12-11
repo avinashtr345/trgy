@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="index1.css">
+</head>
+<body>
+  <!-- Login Page -->
+  <div id="loginPage" class="login-container">
+    <div class="login-header">
+      <h1>Welcome to <span class="brand">Unstop</span></h1>
+    </div>
+
+    <div class="social-login">
+      <button class="google-login">Login with Google</button>
+      <button class="facebook-login">Login with Facebook</button>
+    </div>
+
+    <p class="or-text">OR</p>
+
+    <form id="loginForm">
+      <div class="form-group">
+        <label for="username">User name</label>
+        <input type="text" id="username" placeholder="Enter username" required>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Enter email" required>
+      </div>
+
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Enter password" required>
+      </div>
+
+      <div class="form-options">
+        <div>
+          <input type="checkbox" id="rememberMe">
+          <label for="rememberMe">Remember me</label>
+        </div>
+        <a href="#" class="forgot-password">Forgot Password?</a>
+      </div>
+
+      <div id="errorMessage" class="error-message"></div>
+
+      <button type="submit" class="login-button">Login</button>
+    </form>
+
+    <p class="register-link">Don’t have an account? <a href="#">Register</a></p>
+  </div>
+
+  <!-- Main Page -->
+  <div id="homePage" class="main-container" style="display: none;">
+    <h1>Welcome to the Main Page</h1>
+    <button id="logoutButton" class="logout-button">Logout</button>
+  </div>
+
+  <script src="index3.js"></script>
+</body>
+</html>
